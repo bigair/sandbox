@@ -1,4 +1,7 @@
 Sandbox::Application.routes.draw do
+  
+  resources :forums
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
